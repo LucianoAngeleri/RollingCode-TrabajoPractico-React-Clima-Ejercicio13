@@ -12,7 +12,7 @@ const BuscadorPais = () => {
     const APIkey = "ecdbf1dacca03202974b7c373eb3d17e";
 
     const obtenerDatosUbicacionAPI = async () => {
-        let urlUbicacion = `http://api.openweathermap.org/geo/1.0/direct?q=${ciudad}&limit=1&appid=${APIkey}&lang=es`;
+        let urlUbicacion = `https://api.openweathermap.org/geo/1.0/direct?q=${ciudad}&limit=1&appid=${APIkey}&lang=es`;
         try {
             const ubicacionRespuesta = await fetch(urlUbicacion);
             const datosUbicacion = await ubicacionRespuesta.json();

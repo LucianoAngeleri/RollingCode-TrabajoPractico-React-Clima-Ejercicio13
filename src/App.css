@@ -1,8 +1,9 @@
-#root{
-  min-height: 100vh;
-  display:flex;
-  flex-direction: column;
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-.main{
-  flex-grow: 1;
+
+.main {
+    flex-grow: 1;
 }

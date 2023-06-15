@@ -60,7 +60,7 @@ const BuscadorPais = () => {
                         <Form.Label>Buscar el clima por Ciudad</Form.Label>
                         <div className='d-flex gap-3'>
                             <Form.Control type="text" value={ciudad} placeholder="Ingrese la ciudad para consultar el clima..." onChange={handleChange} />
-                            <Button variant="outline-success" className="rounded-4">Buscar</Button>
+                            <Button variant="outline-success" className="rounded-4" type="sumbit">Buscar</Button>
                         </div>
                     </Form.Group>
                 </Form>
